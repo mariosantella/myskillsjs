@@ -54,11 +54,6 @@ getSkillColor = (score) => {
    `;
     document.head.appendChild(style);
 
-    // render a serie of divs in the page that represent the skills in the array
-    // every skill div has a different color based on the score
-    // the score is represented by a number between 1 and 10
-    // the color is a gradient from red to green
-    // the divs are rendered in the skills div
     
     // get the skills div
     let skillsDiv = document.getElementById("skills");
